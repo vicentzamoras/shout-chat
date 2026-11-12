@@ -1,0 +1,29 @@
+{
+  "manifest_version": "1",
+  "id": "shout-chat",
+  "name": "Shout Chat",
+  "authors": [
+    {
+      "name": "Vicente Zamora",
+      "url": "https://github.com/vicentzamoras"
+    }
+  ],
+  "project_urls": {
+    "Homepage": "https://github.com/vicentzamoras/shout-chat",
+    "Issues": "https://github.com/vicentzamoras/shout-chat/issues"
+  },
+  "description": "A chat model that shouts your message back in capital letters.",
+  "version": "1.0.0",
+  "min_app_version": "0.10.0",
+  "components": [
+    {
+      "class": "shout_chat:ShoutChatTask",
+      "type": "GenerativeTask"
+    },
+    {
+      "class": "shout_chat:ShoutModel",
+      "type": "GenerativeModel"
+    }
+  ],
+  "dependencies": []
+}
